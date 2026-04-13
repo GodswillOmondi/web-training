@@ -52,6 +52,12 @@ body {
 .quiz-header {
   margin-bottom: 2rem;
 }
+.score-header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  color: #333;
+}
 
 #question-text {
   color: #333;
