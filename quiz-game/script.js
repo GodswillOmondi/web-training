@@ -76,6 +76,7 @@ restartButton.addEventListener("click", restartQuiz);
 
 function startQuiz() {
   console.log("quiz started!");
+  score = 0;
   currentQuestionIdx = 0;
   scoreSpan.textContent = 0;
   startScreen.classList.remove("active");
