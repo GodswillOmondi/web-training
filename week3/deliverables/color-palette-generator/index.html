@@ -5,14 +5,71 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>color-palette</title>
     <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body>
     <div class="container">
       <h1>Color Palette Generator</h1>
       <button id="generate-btn">
-        <i class="fas fa-sync-all"></i>
+        <i class="fas fa-sync"></i>
         Generate Palette
       </button>
+      <div class="palette-container">
+        <!-- color box 1 -->
+        <div class="color-box">
+          <div class="color" style="background-color: #e1f5fe"></div>
+          <div class="color-info">
+            <span class="hex-value">#E1F5FE</span>
+            <i class="far fa-copy copy-btn" title="copy to cliboard"></i>
+          </div>
+        </div>
+        <!-- color box 1 -->
+        <div class="color-box">
+          <div class="color" style="background-color: #55bb01"></div>
+          <div class="color-info">
+            <span class="hex-value">#55BB01</span>
+            <i class="far fa-copy copy-btn" title="copy to cliboard"></i>
+          </div>
+        </div>
+        <!-- color box 2 -->
+        <div class="color-box">
+          <div class="color" style="background-color: #00aeff"></div>
+          <div class="color-info">
+            <span class="hex-value">#00AEFF</span>
+            <i class="far fa-copy copy-btn" title="copy to cliboard"></i>
+          </div>
+        </div>
+        <!-- color box 3 -->
+        <div class="color-box">
+          <div class="color" style="background-color: #910000"></div>
+          <div class="color-info">
+            <span class="hex-value">#910000</span>
+            <i class="far fa-copy copy-btn" title="copy to cliboard"></i>
+          </div>
+        </div>
+        <!-- color box 4 -->
+        <div class="color-box">
+          <div class="color" style="background-color: #ffee00"></div>
+          <div class="color-info">
+            <span class="hex-value">#FFEE00</span>
+            <i class="far fa-copy copy-btn" title="copy to cliboard"></i>
+          </div>
+        </div>
+        <!-- color box 5 -->
+        <div class="color-box">
+          <div class="color" style="background-color: #357272"></div>
+          <div class="color-info">
+            <span class="hex-value">#357272</span>
+            <i class="far fa-copy copy-btn" title="copy to cliboard"></i>
+          </div>
+        </div>
+      </div>
     </div>
     <script src="script.js"></script>
   </body>
