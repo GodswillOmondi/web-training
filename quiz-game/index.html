@@ -17,8 +17,13 @@
       <div class="screen" id="quiz-screen">
         <div class="quiz-header">
           <h2 id="question-text">Question goes here</h2>
-          <p>Question <span id="current-question"></span> of <span>5</span></p>
-          <p>Score: <span id="score">0</span></p>
+          <div class="score-header">
+            <p>
+              Question <span id="current-question">0</span> of
+              <span id="total-questions">5</span>
+            </p>
+            <p>Score: <span id="score">0</span></p>
+          </div>
         </div>
 
         <div id="answers-container" class="answers-container">
@@ -41,5 +46,6 @@
         <button id="restart-btn">Restart Quiz</button>
       </div>
     </div>
+    <script type="module" src="script.js"></script>
   </body>
 </html>
